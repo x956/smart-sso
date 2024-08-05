@@ -7,9 +7,9 @@ spring:
     request-context-attribute: request
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/smart-sso?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/smart-sso?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
     username: root
-    password: 123456
+    password: Xy123456@
 
 #  redis:
 #    host: 127.0.0.1
@@ -19,7 +19,7 @@ spring:
 smart:
   sso:
     #服务端地址
-    server-url: http://server.smart-sso.com:8080
+    server-url: http://xuyang.website:9999
     #客户端密钥信息
     client-id: 1000
     client-secret: rokY9BdKh5bHiX/zL26qOg==
